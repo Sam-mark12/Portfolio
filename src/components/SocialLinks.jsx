@@ -81,6 +81,11 @@ const SocialLinks = () => {
               rel="noreferrer"
             >
               {child}
+              {child === <>LinkedIn <FaLinkedin size={["xl"= 30, "md"= 24, "sm"= 20]} /></>}
+              {child === <>LinkedIn <FaGithub size={["xl"= 30, "md"= 24, "sm"= 20]} /></>}
+              {child === <>LinkedIn <HiOutlineMail size={["xl"= 30, "md"= 24, "sm"= 20]} /></>}
+              {child === <>LinkedIn <BsFillPersonLinesFill  size={["xl"= 30, "md"= 24, "sm"= 20]} /></>}
+              {child === <>LinkedIn <VscCode size={["xl"= 30, "md"= 24, "sm"= 20]} /></>}
             </a>
           </li>
         ))}
