@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { VscCode } from "react-icons/vsc"
+import { VscCode } from "react-icons/vsc";
 
 const SocialLinks = () => {
   const links = [
@@ -71,11 +71,11 @@ const SocialLinks = () => {
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
-            className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 ${style} bg-transparent bg-black md:bg-black`} // Modified class names
+            className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 ${style} bg-transparent`} 
           >
             <a
               href={href}
-              className='flex justify-between items-center text-white w-full h-full px-4 bg-transparent bg-black hover:bg-gray-800 rounded-md md:bg-black' // Modified class names
+              className='flex justify-between items-center text-white w-full h-full px-4 bg-transparent hover:bg-gray-800 rounded-md'
               download={download}
               target='_blank'
               rel="noreferrer"
@@ -90,5 +90,6 @@ const SocialLinks = () => {
 };
 
 export default SocialLinks;
+
 
 
