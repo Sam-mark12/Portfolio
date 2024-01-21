@@ -11,7 +11,7 @@ const SocialLinks = () => {
       child: (
         <>
           LinkedIn
-          <FaLinkedin size={30} />
+          <FaLinkedin size={20} />
         </>
       ),
       href: "https://www.linkedin.com/in/mohammed-sameer-s-7572ab253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -22,7 +22,7 @@ const SocialLinks = () => {
       child: (
         <>
           GitHub
-          <FaGithub size={30} />
+          <FaGithub size={20} />
         </>
       ),
       href: "https://github.com/Sam-mark12",
@@ -33,7 +33,7 @@ const SocialLinks = () => {
       child: (
         <>
           Mail
-          <HiOutlineMail size={30} />
+          <HiOutlineMail size={20} />
         </>
       ),
       href: "mailto:sameer6.mumtaj@gmail.com",
@@ -44,7 +44,7 @@ const SocialLinks = () => {
       child: (
         <>
           Resume
-          <BsFillPersonLinesFill size={30} />
+          <BsFillPersonLinesFill size={20} />
         </>
       ),
       href: "/resume.pdf",
@@ -56,7 +56,7 @@ const SocialLinks = () => {
       child: (
         <>
           SKILL RACK
-          <VscCode size={30} />
+          <VscCode size={20} />
         </>
       ),
       href: "https://www.skillrack.com/faces/resume.xhtml?id=352487&key=cefa809b771b45af9286ade86bd6f36d30f525d2",

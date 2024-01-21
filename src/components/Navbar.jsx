@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
-import { useTranslation } from 'react-i18next'; // Fix the import
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const { t } = useTranslation();
