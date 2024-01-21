@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className='transition-all flex justify-between items-center w-full h-20 text-white fixed bg-black'>
-      <div className='text-3xl font-signature ml-10'>
+      <div className='text-3xl font-signature ml-10 text-pink-300'>
         MOHAMMED SAMEER S
       </div>
       <ul className='hidden md:flex'>

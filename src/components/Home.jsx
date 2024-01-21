@@ -10,7 +10,7 @@ const Home = () => {
       <div className='text-center mt-6'>
         <h2 className='text-4xl font-signature font-semibold mb-4'>I'm a Full Stack Developer</h2>
         <p>
-          Basically, I am gaining experience in  <span className=' text-red-400 font-bold inline underline'> MERN STACK</span> 
+          Basically, I am gaining experience in  <span className=' text-pink-400 font-bold inline underline'> MERN STACK</span> 
         </p>
         <div className=' flex flex-row items-center gap-x-9 gap-y-8 justify-center'>
           <Link to="Portfolio" smooth duration={500} className=" group text-white w-fit py-3 px-6 my-2 rounded-md flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
