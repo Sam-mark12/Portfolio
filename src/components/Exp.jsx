@@ -71,7 +71,7 @@ const Exp = () => {
     <div name='Skills' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen md:h-screen s'>
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <div>
-          <p className='text-4xl font-signature border-b-4 border-gray-500 p-2 inline-block mt-56'>Skills</p>
+          <p className='text-4xl font-signature border-b-4 border-gray-500 p-2 inline-block mt-56 text-pink-400'>Skills</p>
           <p className='py-6 font-extrabold'>There are technologies I worked with</p>
         </div>
         <div className='grid w-full grid-cols-2 sm:grid-cols-3 gap-8 text-center px-12 py-8 sm:px-0'>
