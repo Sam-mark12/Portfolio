@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className='transition-all flex justify-between items-center w-full h-20 text-white fixed bg-black'>
-      <div className='text-5xl capitalize font-signature ml-10 text-pink-400'>
+      <div className='text-4xl capitalize font-signature ml-10 text-pink-400'>
         mohammed sameer s
       </div>
       <ul className='hidden md:flex'>
