@@ -8,15 +8,18 @@ const About = () => {
           <p className='text-4xl font-signature text-pink-400 inline border-b-4 border-gray-500 capitalize'>About Me</p>
         </div>
         <p className='text-xl leading-relaxed'>
-          Hey there! 👋 I'm a third-year Computer Science Engineering student at RMK College of Engineering and Technology, maintaining a stellar CGPA of 8.4+. My journey in the world of technology has been nothing short of thrilling.
+          Hey there! 👋 I'm currently pursuing  final-year Computer Science Engineering student at RMK College of Engineering and Technology, maintaining a stellar CGPA of 8.4+. My journey in the world of technology has been nothing short of thrilling.
 
           I'm not just a coder; I'm a storyteller in the digital realm. My passion lies in crafting immersive web experiences that captivate users. Whether it's elegant designs or solving intricate problems, I approach every challenge with creativity and innovation.
-
+          ''''
+          I'am currently working in a company called WEBZENITH SOLUTION based upon my skills the... hired me as a developer and am having great exprience with them as a developer in group of working am learning great skills with them and i have learned lot of things and gained knowladge
+          and they introduce new tech stack and am currently exploring and gainging exprienece with pleasent knowladge with them, and am happy to work with them
+          ''''
           Beyond the screen, I'm an advocate for continuous learning and personal growth. I believe in the power of collaboration, curiosity, and resilience.
 
           Let's build something incredible together! 💻✨
         </p>
-        <div className='flex font-signature text-2xl'>
+        <div className='flex font-signature text-2xl mt-44'>
           Education Journey:
         </div>
         <ul className='list-disc ml-8 mt-4'>
