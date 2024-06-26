@@ -53,11 +53,11 @@ const Portfolio = () => {
           {portfolios.map(({ id, src,add }) => (
             <div key={id} className='relative group'>
               <div
-                className={`overlay absolute inset-0 bg-black text-pink-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out ${
+                className={`overlay absolute text-sm inset-0 bg-black text-pink-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out ${
                   hoveredProject === id ? 'opacity-100' : ''
                 }`}
               >
-                <div className='text-center text-4xl p-4 font-signature'>
+                <div className='text-center p-4 font-signature text-4xl'>
                   <p>{add}</p>
                 </div>
               </div>
