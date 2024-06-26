@@ -11,14 +11,14 @@ const Navbar = () => {
     { id: 1, link: 'Home' },
     { id: 2, link: 'About' },
     { id: 3, link: 'Portfolio' },
-    { id: 4, link: 'Skills' },
+    { id: 4, link: 'skills' },
     { id: 5, link: 'Contact' },
   ];
 
   return (
-    <div className='transition-all flex justify-between items-center w-full h-20 text-white fixed bg-black'>
+    <nav className='transition-all flex justify-between items-center w-full h-20 text-white fixed bg-black z-50'>
       <div className='text-4xl capitalize font-signature ml-10 text-pink-400'>
-        mohammed sameer s
+        Mohammed Sameer S
       </div>
       <ul className='hidden md:flex'>
         {links.map(({ id, link }) => (
@@ -43,7 +43,7 @@ const Navbar = () => {
           ))}
         </ul>
       )}
-    </div>
+    </nav>
   );
 };
 

@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div>
+    <div className=' gap-y-40'>
       <Navbar />
       <Home />
       <About />
