@@ -137,7 +137,7 @@ const Exp = () => {
           ))}
         </div>
       </div>
-      <div className='text-center mt-12'>
+      <div className='text-center mt-12'data-aos="fade-down" data-aos-duration="1000">
   <p className='text-2xl font-bold text-pink-400'>Tech Stack I Was Working With</p>
   <div className='flex justify-center items-center gap-4 mt-4'>
     {stack.map(({ id, src, title, style }) => (

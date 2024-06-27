@@ -11,8 +11,8 @@ AOS.init();
 const About = () => {
   return (
     <div name="About" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white py-16'>
-      <div className='max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full' data-aos="fade-left" data-aos-duration="1000">
-        <div className='pb-8'>
+      <div className='max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full' data-aos="fade-left">
+        <div className='pb-8' data-aos="fade-left" data-aos-duration="1000" >
           <p className='text-5xl font-bold text-pink-400 inline border-b-4 border-gray-500'>About Me</p>
         </div>
         <div className='grid md:grid-cols-2 gap-8'>
