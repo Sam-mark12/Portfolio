@@ -1,9 +1,13 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const Contact = () => {
   return (
     <div name="Contact" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
-        <div className=' flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
+        <div className=' flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'  data-aos="fade-down" data-aos-duration="1000">
             <div className=' pb-8 mt-56'>
                 <p className=' text-4xl font-signature inline border-b-4 border-gray-500 capitalize text-pink-400 '>contact</p>
                 <p className=' py-6 font-extrabold'>
