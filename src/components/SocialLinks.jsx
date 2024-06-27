@@ -14,7 +14,7 @@ const SocialLinks = () => {
           <FaLinkedin size={20} className='text-pink-200' />
         </>
       ),
-      href: "https://www.linkedin.com/in/mohammed-sameer-s-7572ab253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      href: "https://www.linkedin.com/in/mohammed-sameer-s-7572ab253",
       style: "rounded-tr-md",
     },
     {
